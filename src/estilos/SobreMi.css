@@ -1,0 +1,63 @@
+.sobre-mi {
+   
+  padding: 20px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+   
+  margin-bottom: 20px;
+  color: var(--texto);
+  justify-content: center;
+   
+  
+}
+.boton-descarga{
+  border: none;
+  cursor: pointer;
+  height: 30px;
+   background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+.boton-descarga:hover{
+   color: #ab0af0;
+   transition:  color 0.3s ease, box-shadow 0.3s ease;
+   
+}
+.App.oscuro .boton-descarga {
+   background-color: var(--fondo);
+  color:  #ffffff;
+}
+.App.oscuro .boton-descarga:hover{
+  color: #ab0af0;
+}
+.sobre-mi h2 {
+   margin: a;
+  color: var(--texto);
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+.sobre-mi p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+  @media (max-width: 600px) {
+    .sobre-mi,
+    .proyectos,
+    .contacto {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .sobre-mi h2,
+    .proyectos h2,
+    .contacto h2 {
+      font-size: 22px;
+    }
+  }
+  

@@ -1,0 +1,41 @@
+.etiquetas-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+     
+  }
+  .habilidades-titulo{
+    color: var(--texto);
+    text-decoration: underline;
+    text-align: left;
+ 
+    
+  }
+  .etiqueta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #282c34;
+    color: white;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    user-select: none; /* para que no se seleccionen al hacer clic */
+    cursor: pointer;
+    border: 2px solid;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .etiqueta:hover {
+    border-color: var(--subtexto)
+  }
+  .etiqueta svg {
+    font-size: 1.5rem;
+  }
+ .habilidades{
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+     
+    margin-bottom: 20px;
+ }

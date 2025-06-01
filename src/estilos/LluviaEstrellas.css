@@ -1,0 +1,236 @@
+ 
+.lluvia-estrellas {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Ocupa toda la altura de la ventana */
+    background-color: #000000; 
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+     
+  }
+  .contenido-superior {
+    position: relative;
+     
+    display: flex;
+     align-items: center;
+    
+      
+     width: 700px;
+    
+     
+  }
+  .mi-foto {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 3px solid #00d1b2;
+  }
+  
+  .logo-nombre {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--texto);
+    z-index: 1000; /* Para que quede encima si hay otros elementos */
+  }
+  
+  .icono-laptop {
+    font-size: 40px;
+    color: var(--texto);
+  }
+  
+  .estrella {
+    position: absolute;
+    top: -10px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation-name: caer;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes caer {
+    0% {
+      transform: translateY(0);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(110vh);
+      opacity: 0;
+    }
+  }
+  .Titulos{
+    
+    width: 500px;
+     
+  }
+  .saludo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 100;
+     width: 300px;
+     
+      
+     text-align: left;
+     margin: 0px;
+    
+      
+     
+  }
+  
+  .saludo2 {
+    font-size: 2rem;
+      
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+    color: var(--subtexto);
+    
+  }
+  .saludo3{
+    font-size: 3rem;
+     
+    text-align: left;
+    margin: 0px;
+    font-weight: 700;
+     
+  }
+  .seccion-botones {
+    position: absolute;   /* para sacar del flujo y posicionar libremente */
+    bottom: 20px;         /* a 20px del borde inferior del contenedor */
+    right: 20px;          /* a 20px del borde derecho del contenedor */
+    display: flex;
+    gap: 10px;
+    transition: opacity 0.3s ease;
+  }
+  .seccion-botones.oculto {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .contenedor-botones {
+    display: flex;
+    gap: 10px;
+    
+  }
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* header angosto */
+    background-color: #000000; /* Negro sólido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    z-index: 1000; /* <--- Agregar este para estar arriba */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+   
+    /* Empezar oculto arriba */
+    transform: translateY(-100%);
+     
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .fixed-top .contenedor-botones button {
+    padding: 6px 10px;
+    font-size: 20px;
+     background-color: #000000;
+    color: var(--subtexto);
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+     
+  }
+  .fixed-top .contenedor-botones button:hover {
+    color: var(--subtexto);
+  }
+  .fixed-top.animar {
+    transform: translateY(0);
+    
+  }
+  .seccion-botones.animar {
+    top: 0; /* baja para mostrarse */
+     
+  }
+  .contenedor-botones button {
+    padding: 8px 12px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    transition:  color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+     
+  }
+  
+  .contenedor-botones button:hover {
+     color:  rgb(255, 0, 255);
+     
+  }
+  @media (max-width: 600px) {
+    .logo-nombre {
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .contenido-superior {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .mi-foto {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 15px;
+    }
+  
+    .Titulos {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .saludo,
+    .saludo2,
+    .saludo3 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .saludo {
+      font-size: 1.2rem;
+    }
+  
+    .saludo2 {
+      font-size: 1.6rem;
+    }
+  
+    .saludo3 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  
+  
