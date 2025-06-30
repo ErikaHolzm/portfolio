@@ -7,7 +7,7 @@ function Proyectos() {
     {
       nombre: "Tienda de mascotas",
       descripcion: "E-commerce para venta de productos para mascotas usando Vue y Node.js.",
-      enlace: "https://github.com/erika/tienda-mascotas"
+      enlace: "https://nuevoproyecto-x5ju.vercel.app/#/home"
     },
     {
       nombre: "Portfolio personal",
