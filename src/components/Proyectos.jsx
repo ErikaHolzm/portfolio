@@ -13,6 +13,11 @@ function Proyectos() {
       nombre: "Portfolio personal",
       descripcion: "Mi sitio web personal hecho con React para mostrar mis proyectos.",
       enlace: "#"
+    },
+    {
+      nombre: "Sistema de reservas Peluquería",
+      descripcion: "Aplicación web para gestionar reservas en una peluquería, hecha con React, Node.js y SQL.",
+      enlace: "https://peluqueria-theta.vercel.app"
     }
   ];
 
