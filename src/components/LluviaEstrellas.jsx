@@ -70,9 +70,9 @@ const LluviaEstrellas = ( ) => {
                 <nav className={`seccion-botones ${headerVisible ? 'oculto' : ''}`}>
                         <div className="contenedor-botones">
                         <div className="logo-nombre">
-      <FaLaptopCode className="icono-laptop" />
-      <span className="nombre">Erika Holzmann</span>
-    </div>
+                        <FaLaptopCode className="icono-laptop" />
+                       <span className="nombre">Erika Holzmann</span>
+                        </div>
                             <button onClick={() => scrollToId('sobre-mi')}>Sobre mí</button>
                             <button onClick={() => scrollToId('proyectos')}>Proyectos</button>
                              <button onClick={() => scrollToId('habilidades')}>Habilidades</button>

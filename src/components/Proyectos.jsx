@@ -6,7 +6,7 @@ function Proyectos() {
   const proyectos = [
     {
       nombre: "Tienda de mascotas",
-      descripcion: "E-commerce para venta de productos para mascotas usando Vue y Node.js.",
+      descripcion: "E-commerce para venta de productos para mascotas usando Vue, Node js, Express y MySQL. La página esta totalmente funcionando pero para poder hacer el deploy tenía que harcodear algunas cosas del backend.",
       enlace: "https://nuevoproyecto-x5ju.vercel.app/#/home"
     },
     {
@@ -16,7 +16,7 @@ function Proyectos() {
     },
     {
       nombre: "Sistema de reservas Peluquería",
-      descripcion: "Aplicación web para gestionar reservas en una peluquería, hecha con React, Node.js y SQL.",
+      descripcion: "Aplicación web para gestionar reservas en una peluquería, hecha con React, Node.js, Express y MySql. Funciona totalmente, harcodee el backend para poder hacer el deploy.",
       enlace: "https://peluqueria-theta.vercel.app"
     }
   ];
