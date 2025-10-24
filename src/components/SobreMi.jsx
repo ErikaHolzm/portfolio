@@ -11,7 +11,7 @@ function SobreMi() {
       </p>
 
 
-      <a href="/Erika-H-Cv.pdf" download  >
+      <a href="/ErikaHolzmannCv.pdf" download  >
        <button className="boton-descarga">
           📄 Descargar Curriculum
       </button>
