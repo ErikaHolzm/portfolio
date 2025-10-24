@@ -65,6 +65,7 @@
   padding-bottom: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+   
 }
 
 .proyecto-carrusel::-webkit-scrollbar {
@@ -102,6 +103,7 @@
   background-color: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
+  
 }
 
 .modal-contenido {
@@ -143,6 +145,10 @@
   .proyectos h2 {
     font-size: 24px;
   }
+  .modal{
+    align-items: flex-start;
+    padding-top: 5rem;
+  }
 }
 
 /* Móviles */
@@ -166,5 +172,9 @@
 
   .proyectos h2 {
     font-size: 20px;
+  }
+  .modal{
+    align-items: flex-start;
+    padding-top: 5rem;
   }
 }
