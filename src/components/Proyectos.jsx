@@ -40,7 +40,9 @@ function Proyectos() {
         "/proyectos/autos2.png",
         "/proyectos/autos3.png",
         "/proyectos/autos4.png",
-        "/proyectos/autos5.png"
+        "/proyectos/autos5.png",
+        "/proyectos/autos6.png",
+        "/proyectos/autos7.png"
       ]
     }
   ];
