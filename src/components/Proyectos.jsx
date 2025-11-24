@@ -38,7 +38,9 @@ function Proyectos() {
       imagenes: [
         "/proyectos/autos.png",
         "/proyectos/autos2.png",
-        "/proyectos/autos3.png"
+        "/proyectos/autos3.png",
+        "/proyectos/autos4.png",
+        "/proyectos/autos5.png"
       ]
     }
   ];
