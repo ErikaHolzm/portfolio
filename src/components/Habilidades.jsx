@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaNodeJs, FaReact, FaJsSquare, FaVuejs, FaCss3Alt, FaPython } from 'react-icons/fa';
-import { SiExpress, SiMysql } from 'react-icons/si';  // Íconos de tecnologías no en Fa
+import { SiExpress, SiMysql, SiDocker, SiMongodb } from 'react-icons/si'; 
 
 import '../estilos/Habilidades.css';
 
@@ -19,6 +19,8 @@ function Habilidades() {
           <span className="etiqueta"><SiMysql /> MySQL</span>
           <span className="etiqueta"><FaPython /> Python</span>
           <span className="etiqueta"><FaCss3Alt /> CSS</span>
+          <span className="etiqueta"><SiDocker /> Docker</span>
+         <span className="etiqueta"><SiMongodb /> MongoDB</span>
         </div>
       </section>
     );

@@ -28,12 +28,12 @@
   .mi-foto {
     display: block;
     margin: 0 auto 20px auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border: 3px solid #00d1b2;
+    width: 170px;
+    height: 225px;
+    border-radius: 20%;
+     object-fit: contain;
+    
+    border: 3px solid #e216e9;
   }
   
   .logo-nombre {
@@ -202,8 +202,8 @@
     }
   
     .mi-foto {
-      width: 120px;
-      height: 120px;
+      width: 170px;
+    height: 225px;
       margin-bottom: 15px;
     }
   

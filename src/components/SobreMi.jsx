@@ -11,9 +11,15 @@ function SobreMi() {
       </p>
 
 
-      <a href="/ErikaHolzmannCv.pdf" download  >
+      <a href="/Erika-H-Cv.pdf.pdf" download  >
        <button className="boton-descarga">
-          📄 Descargar Curriculum
+          📄 Descargar Curriculum (Español)
+      </button>
+      </a>
+
+      <a href="/CV_English.pdf .pdf" download  >
+       <button className="boton-descarga">
+          📄 Download Resume (English)
       </button>
       </a>
 

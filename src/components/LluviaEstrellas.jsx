@@ -1,7 +1,7 @@
 // src/components/LluviaEstrellas.jsx
 import React, { useEffect, useState } from 'react';
 import '../estilos/LluviaEstrellas.css';
-import foto from "../assets/foto.jpg";
+import foto from "../assets/foto.png";
 import { FaLaptopCode } from 'react-icons/fa';
 
 const LluviaEstrellas = ( ) => {
