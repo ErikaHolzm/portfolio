@@ -232,5 +232,35 @@
     }
   }
   
+@media (max-width: 600px) {
+  .fixed-top {
+    height: 50px;              
+    padding: 0 10px;
+    background-color: #000000;
+  }
+
+  .fixed-top .contenedor-botones {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;          
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .fixed-top .contenedor-botones::-webkit-scrollbar {
+    display: none;             
+  }
+
+  .fixed-top .contenedor-botones button {
+    flex: 0 0 auto;            
+    white-space: nowrap;       
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+}
+
   
   

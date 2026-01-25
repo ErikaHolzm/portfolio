@@ -7,7 +7,7 @@ function SobreMi() {
         <h2>Sobre mí</h2>
          
       <p>
-      ¡Hola! Soy Erika Holzmann, Full Stack Developer especializada en el desarrollo de aplicaciones web utilizando tecnologías como Node.js, Express, React, JavaScript, Vue.js, MySQL, Python y CSS. Me caracterizo por un compromiso constante y una fuerte ética de trabajo, manteniendo siempre la calidad y eficiencia en cada proyecto. Poseo habilidad para trabajar de manera colaborativa en equipo, así como de forma autónoma, adaptándome con facilidad a diferentes entornos y desafíos.
+      ¡Hola! Soy Erika Holzmann, Tester Manual y Desarrolladora Full Stack, con enfoque en la calidad del software y la experiencia del usuario. Realizo pruebas funcionales, testing exploratorio y diseño de casos de prueba, detectando y documentando errores para asegurar aplicaciones estables y confiables. Cuento con conocimientos en desarrollo web utilizando tecnologías como Node.js, Express, React, Vue.js, MySQL, Mongo, Docker, Python, Flask, CSS, Javascript, lo que me permite comprender en profundidad los sistemas que pruebo y colaborar de forma efectiva con equipos de desarrollo. Me caracterizo por el compromiso, la atención al detalle y la adaptabilidad a distintos entornos y desafíos.
       </p>
 
 
@@ -17,7 +17,7 @@ function SobreMi() {
       </button>
       </a>
 
-      <a href="/CV_English.pdf .pdf" download  >
+      <a href="/CVINGLES.pdf.pdf" download  >
        <button className="boton-descarga">
           🌍 Download Resume (English)
       </button>
