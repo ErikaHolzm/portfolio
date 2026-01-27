@@ -56,7 +56,7 @@ function Proyectos() {
       descripcion:
         "Aplicación web responsive de alquiler de autos hecho con React, Python (Flask) y MySQL. El backend está funcional, pero para la demostración en el portfolio se muestran imágenes del proyecto ya que el deploy no muestra la funcionalidad en vivo.",
       enlace:
-        "https://front-end-autos-git-erika-erikas-projects-8b772ea8.vercel.app",
+        "https://vercel.com/erikas-projects-8b772ea8/front-end-autos",
       imagenes: [
         "/proyectos/AUTOS/autos.png",
         "/proyectos/AUTOS/autos2.png",
