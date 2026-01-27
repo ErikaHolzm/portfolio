@@ -112,9 +112,21 @@ function Proyectos() {
             <h3>{proyecto.nombre}</h3>
             <p>{proyecto.descripcion}</p>
 
-            <a href={proyecto.enlace} target="_blank" rel="noopener noreferrer">
-              <FaGitlab /> Ver proyecto
-            </a>
+            {proyecto.enlace?.startsWith("http") ? (
+                  <a
+                    href={proyecto.enlace}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <FaGitlab /> Ver proyecto
+                  </a>
+                ) : (
+                  <span className="proyecto-sin-link">
+                    <FaGitlab /> Proyecto actual
+                  </span>
+                )}
+
           </li>
         ))}
       </ul>
