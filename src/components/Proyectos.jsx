@@ -56,7 +56,7 @@ function Proyectos() {
       descripcion:
         "Aplicación web responsive de alquiler de autos hecho con React, Python (Flask) y MySQL. El backend está funcional, pero para la demostración en el portfolio se muestran imágenes del proyecto ya que el deploy no muestra la funcionalidad en vivo.",
       enlace:
-        "https://front-end-autos.vercel.app",
+        "https://front-end-autos-abc123.vercel.app",
       imagenes: [
         "/proyectos/AUTOS/autos.png",
         "/proyectos/AUTOS/autos2.png",
@@ -112,21 +112,9 @@ function Proyectos() {
             <h3>{proyecto.nombre}</h3>
             <p>{proyecto.descripcion}</p>
 
-            {proyecto.enlace?.startsWith("http") ? (
-                  <a
-                    href={proyecto.enlace}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    <FaGitlab /> Ver proyecto
-                  </a>
-                ) : (
-                  <span className="proyecto-sin-link">
-                    <FaGitlab /> Proyecto actual
-                  </span>
-                )}
-
+            <a href={proyecto.enlace} target="_blank" rel="noopener noreferrer">
+              <FaGitlab /> Ver proyecto
+            </a>
           </li>
         ))}
       </ul>
