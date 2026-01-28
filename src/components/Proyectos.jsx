@@ -85,6 +85,21 @@ function Proyectos() {
         "/proyectos/VENTAS/ventas8.png",
       ],
     },
+    {
+      nombre: "Veterinaria Guau Guau",
+      descripcion:
+            "Proyecto de testing manual realizado en equipo para un sistema de gestión veterinaria. Incluyó el diseño y ejecución de casos de prueba, reporte y seguimiento de incidencias, pruebas de regresión y testing exploratorio. Se trabajó de forma colaborativa utilizando Trello para la planificación y control del proceso, y se generó documentación formal con resultados y conclusiones del proyecto.",
+      enlace: "https://trello.com/b/xV40CCXv/etapa-3",
+      imagenes: [
+        "/proyectos/VETERINARIAGUAU/sandiferikson.png",
+        "/proyectos/VETERINARIAGUAU/sandiferikson1.png",
+        "/proyectos/VETERINARIAGUAU/sandiferikson2.png",
+        "/proyectos/VETERINARIAGUAU/trello.png",
+        "/proyectos/VETERINARIAGUAU/trello1.png",
+        "/proyectos/VETERINARIAGUAU/trello2.png",
+        
+      ],
+    },
   ];
 
   return (
