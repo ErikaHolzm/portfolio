@@ -11,15 +11,9 @@ function SobreMi() {
       </p>
 
 
-      <a href="/Erika-H-Cv.pdf.pdf" download  >
+      <a href="/ERIKA HOLZMANN.pdf" download  >
        <button className="boton-descarga">
-          📄 Descargar Curriculum (Español)
-      </button>
-      </a>
-
-      <a href="/CVINGLES.pdf.pdf" download  >
-       <button className="boton-descarga">
-          🌍 Download Resume (English)
+          📄 Descargar Curriculum
       </button>
       </a>
 
