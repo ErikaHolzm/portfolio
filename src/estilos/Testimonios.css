@@ -1,0 +1,63 @@
+.testimonios-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--texto);
+}
+
+.testimonios-titulo {
+  color: var(--texto);
+  text-decoration: underline;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+.testimonio-card {
+  max-width: 520px;
+  margin: auto;
+  padding: 20px 22px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonio-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.estrellas {
+  color: #ab0af0;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.testimonio-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--texto);
+  margin-bottom: 12px;
+}
+
+.testimonio-card h4 {
+  color: var(--texto);
+  font-size: 0.95rem;
+  margin-bottom: 3px;
+}
+
+.testimonio-proyecto {
+  font-size: 0.8rem;
+  color: #ab0af0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.testimonio-proyecto:hover {
+  color: #7a05a8;
+  cursor: pointer;
+}
+
+.App.claro .testimonio-card {
+  background: rgba(150, 141, 141, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

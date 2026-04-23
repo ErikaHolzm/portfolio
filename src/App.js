@@ -4,6 +4,7 @@ import Proyectos from './components/Proyectos';
 import Habilidades from './components/Habilidades';
  import Footer from './components/Footer';
 import LluviaEstrellas from './components/LluviaEstrellas';
+import Testimonios from './components/Testimonios';
 import  './estilos/App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -50,10 +51,14 @@ function App() {
         <Habilidades />
 
         </div>
+
+        <div data-aos="fade-up" data-aos-delay="150">
+          <Testimonios />
+        </div>
         
       </div>
   
-      <Footer />  {/* Footer afuera del container y sin data-aos */}
+      <Footer />  
     </div>
   );
   

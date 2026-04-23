@@ -75,8 +75,8 @@ const LluviaEstrellas = ( ) => {
                         </div>
                             <button onClick={() => scrollToId('sobre-mi')}>Sobre mí</button>
                             <button onClick={() => scrollToId('proyectos')}>Proyectos</button>
-                             <button onClick={() => scrollToId('habilidades')}>Habilidades</button>
-                              
+                            <button onClick={() => scrollToId('habilidades')}>Habilidades</button>
+                            <button onClick={() => scrollToId('testimonios')}>Testimonios</button>
                          </div>
                 </nav>
 
@@ -86,6 +86,7 @@ const LluviaEstrellas = ( ) => {
                      <button onClick={() => scrollToId('sobre-mi')}>Sobre mí</button>
                      <button onClick={() => scrollToId('proyectos')}>Proyectos</button>
                      <button onClick={() => scrollToId('habilidades')}>Habilidades</button>
+                     <button onClick={() => scrollToId('testimonios')}>Testimonios</button>
                 </div>
             </nav>
 

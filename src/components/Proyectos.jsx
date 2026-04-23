@@ -35,6 +35,20 @@ function Proyectos() {
       ],
     },
     {
+      nombre: "Les Délices",
+      descripcion:
+            "Sitio web informativo responsive para una confitería, desarrollado con Vue.js y Tailwind CSS. Permite visualizar productos, conocer la ubicación del local mediante Google Maps y facilitar el contacto directo a través de WhatsApp. Enfocado en una interfaz moderna, clara y adaptable a dispositivos móviles.",
+      enlace: "https://les-delices-front.vercel.app",
+      imagenes: [
+        "/proyectos/LESDELICES/banner.png",
+        "/proyectos/LESDELICES/productos.png",
+        "/proyectos/LESDELICES/horarios.png",
+        "/proyectos/LESDELICES/historia.png",
+        "/proyectos/LESDELICES/contacto.png",
+        "/proyectos/LESDELICES/footer.png",
+      ],
+    },
+    {
       nombre: "Portfolio personal",
       descripcion:
         "Portfolio personal responsive hecho con React para mostrar mis proyectos y habilidades. No tiene imágenes porque ya es el propio portfolio.",
