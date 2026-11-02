@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaNodeJs, FaReact, FaJsSquare, FaVuejs, FaCss3Alt, FaPython } from 'react-icons/fa';
-import { SiExpress, SiMysql, SiDocker, SiMongodb } from 'react-icons/si'; 
+import { SiExpress, SiMysql, SiDocker, SiMongodb, SiTypescript, SiExpo, SiJest, SiGithubactions } from 'react-icons/si'; 
 
 import '../estilos/Habilidades.css';
 
@@ -14,13 +14,18 @@ function Habilidades() {
           <span className="etiqueta"><FaNodeJs /> Node.js</span>
           <span className="etiqueta"><SiExpress /> Express</span>
           <span className="etiqueta"><FaReact /> React</span>
+          <span className="etiqueta"><FaReact /> React Native</span>
+          <span className="etiqueta"><SiExpo /> Expo</span>
           <span className="etiqueta"><FaJsSquare /> JavaScript</span>
+          <span className="etiqueta"><SiTypescript /> TypeScript</span>
           <span className="etiqueta"><FaVuejs /> Vue.js</span>
           <span className="etiqueta"><SiMysql /> MySQL</span>
           <span className="etiqueta"><FaPython /> Python</span>
           <span className="etiqueta"><FaCss3Alt /> CSS</span>
           <span className="etiqueta"><SiDocker /> Docker</span>
-         <span className="etiqueta"><SiMongodb /> MongoDB</span>
+          <span className="etiqueta"><SiMongodb /> MongoDB</span>
+          <span className="etiqueta"><SiJest /> Jest</span>
+          <span className="etiqueta"><SiGithubactions /> GitHub Actions</span>
         </div>
       </section>
     );
