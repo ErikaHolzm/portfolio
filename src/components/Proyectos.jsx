@@ -28,6 +28,7 @@ function Proyectos() {
       descripcion:
         "App móvil para no olvidarte de lo que vence (libreta de conducir, seguro, cédula, carné de salud). Registro e inicio de sesión, recordatorios con categoría y fecha, estados por colores y notificaciones locales programadas antes de cada vencimiento. Hecha con TypeScript de punta a punta: React Native + Expo, API REST con Node.js y Express, y MongoDB Atlas. Como tester, además de los tests automáticos y el CI en GitHub Actions, probé a mano casos límite (fechas inválidas, acceso a datos de otro usuario, tokens falsificados, límite de intentos de login), corregí los errores que encontré y los documenté en el README. Tiene una demo web en línea donde se puede crear una cuenta y probarla (las notificaciones solo funcionan en el teléfono).",
       enlace: "https://vencimientos-demo.vercel.app",
+      capturasMovil: true,
       imagenes: [
         "/proyectos/VENCIMIENTOS/vencimientos1.jpg",
         "/proyectos/VENCIMIENTOS/vencimientos2.jpg",
@@ -138,7 +139,9 @@ function Proyectos() {
         {proyectos.map((proyecto, index) => (
           <li key={index} className="proyecto-item">
             {proyecto.imagenes && proyecto.imagenes.length > 0 && (
-              <div className="proyecto-carrusel">
+              <div
+                className={`proyecto-carrusel${proyecto.capturasMovil ? " proyecto-carrusel--movil" : ""}`}
+              >
                 {proyecto.imagenes.map((img, i) => (
                   <img
                     key={i}
@@ -188,4 +191,3 @@ function Proyectos() {
 }
 
 export default Proyectos;
-

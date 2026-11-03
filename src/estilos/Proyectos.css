@@ -91,6 +91,14 @@
   transform: scale(1.05);
 }
 
+/* Capturas de una app móvil (verticales): se muestran enteras, sin recortar */
+.proyecto-carrusel.proyecto-carrusel--movil img {
+  width: auto;
+  max-width: none;
+  height: 320px;
+  object-fit: contain;
+}
+
 /* Modal */
 .modal {
   position: fixed;
@@ -139,6 +147,11 @@
     height: 120px;
   }
 
+  .proyecto-carrusel.proyecto-carrusel--movil img {
+    max-width: none;
+    height: 280px;
+  }
+
   .proyectos h2 {
     font-size: 24px;
   }
@@ -161,6 +174,11 @@
   .proyecto-carrusel img {
     max-width: 140px;
     height: 100px;
+  }
+
+  .proyecto-carrusel.proyecto-carrusel--movil img {
+    max-width: none;
+    height: 240px;
   }
 
   .proyecto-item p {
