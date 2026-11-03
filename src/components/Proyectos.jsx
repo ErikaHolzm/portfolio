@@ -24,6 +24,20 @@ function Proyectos() {
 
   const proyectos = [
     {
+      nombre: "Vencimientos",
+      descripcion:
+        "App móvil para no olvidarte de lo que vence (libreta de conducir, seguro, cédula, carné de salud). Registro e inicio de sesión, recordatorios con categoría y fecha, estados por colores y notificaciones locales programadas antes de cada vencimiento. Hecha con TypeScript de punta a punta: React Native + Expo, API REST con Node.js y Express, y MongoDB Atlas. Como tester, además de los tests automáticos y el CI en GitHub Actions, probé a mano casos límite (fechas inválidas, acceso a datos de otro usuario, tokens falsificados, límite de intentos de login), corregí los errores que encontré y los documenté en el README. Tiene una demo web en línea donde se puede crear una cuenta y probarla (las notificaciones solo funcionan en el teléfono).",
+      enlace: "https://vencimientos-demo.vercel.app",
+      imagenes: [
+        "/proyectos/VENCIMIENTOS/vencimientos1.jpg",
+        "/proyectos/VENCIMIENTOS/vencimientos2.jpg",
+        "/proyectos/VENCIMIENTOS/vencimientos3.jpg",
+        "/proyectos/VENCIMIENTOS/vencimientos4.jpg",
+        "/proyectos/VENCIMIENTOS/vencimientos5.jpg",
+        "/proyectos/VENCIMIENTOS/vencimientos6.jpg",
+      ],
+    },
+    {
       nombre: "Tienda de mascotas",
       descripcion:
         "E-commerce responsive para venta de productos para mascotas usando Vue.js, Node.js, Express y MySQL. El backend está funcional, pero para la demostración en el portfolio se muestran imágenes del proyecto ya que el deploy no permite interactuar con la base de datos en vivo.",
