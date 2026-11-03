@@ -26,7 +26,7 @@ function Proyectos() {
     {
       nombre: "Vencimientos",
       descripcion:
-        "App móvil para no olvidarte de lo que vence (libreta de conducir, seguro, cédula, carné de salud). Registro e inicio de sesión, recordatorios con categoría y fecha, estados por colores y notificaciones locales programadas antes de cada vencimiento. Hecha con TypeScript de punta a punta: React Native + Expo, API REST con Node.js y Express, y MongoDB Atlas. Como tester, además de los tests automáticos y el CI en GitHub Actions, probé a mano casos límite (fechas inválidas, acceso a datos de otro usuario, tokens falsificados, límite de intentos de login), corregí los errores que encontré y los documenté en el README. Tiene una demo web en línea donde se puede crear una cuenta y probarla (las notificaciones solo funcionan en el teléfono).",
+        "App móvil para no olvidarte de lo que vence (libreta de conducir, seguro, cédula, carné de salud). Registro e inicio de sesión con contraseña segura, recordatorios con categoría y fecha, estados por colores y notificaciones locales programadas antes de cada vencimiento. Hecha con TypeScript de punta a punta: React Native + Expo, API REST con Node.js y Express, y MongoDB Atlas. Incluye 43 casos de prueba documentados (cuenta, seguridad, fechas y notificaciones), tests automáticos con CI en GitHub Actions y pruebas en un iPhone real; los errores encontrados se corrigieron y quedaron anotados en el README. Tiene una demo web en línea donde se puede crear una cuenta y probarla (las notificaciones solo funcionan en el teléfono).",
       enlace: "https://vencimientos-demo.vercel.app",
       capturasMovil: true,
       imagenes: [
